@@ -17,7 +17,8 @@ cd Nvim-CapsLock-Disabler/src
 
 ## Auto-run in Neovim:
 To make the script work in background everytime you open neovim, you need to first find your configuration folder,
-this is usually located in `/home/$USER/.config/nvim/init.lua`, if you don't have the directory or the file create it.
+this is usually located in `/home/$USER/.config/nvim/init.lua`, if you don't have the directory and/or the file simply create it.
+
 After this you'll need to edit init.lua and add this line of code wherever you want:
 ```lua
 os.execute([[/home/$USER/Nvim-Caps-Disabler/caps_script &]])
