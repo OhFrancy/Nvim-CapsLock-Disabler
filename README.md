@@ -1,3 +1,9 @@
+# Purpose:
+## You could think, why this script?
+I found the idea of having to worry about the Caps lock, especially on a sensitive keyboard, really unpleasing.
+
+Then I thought, why not make it work only when neovim is running? And here it comes, Nvim-CapsLock-Disabler.
+
 # Complete Installation Guide:
 The guide that follows will lead you to make the script work.
 
