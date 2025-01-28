@@ -8,7 +8,7 @@ DIR=Nvim-Caps-Disabler
 if [ ! -f $SCRIPT ]; then
      echo "$SCRIPT not found, make sure that it's in the right folder."
 else
-     if ! dpkg -s $DEPENDENCY > /dev/null 2>&1; then
+     if ! command -v $DEPENDENCY > /dev/null 2>&1; then
           echo "$DEPENDENCY not installed, proceeding to install it..."
           sudo apt install $DEPENDENCY
      fi
